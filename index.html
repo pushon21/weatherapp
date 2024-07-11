@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <div class="search">
+        <input type="text" placeholder="Enter City Name" spellcheck="false" />
+        <button><i class="ri-search-eye-line"></i></button>
+      </div>
+      <div class="error">
+        <p>Invalid city</p>
+      </div>
+
+      <div class="weather">
+        <img src="assets/image/weather.gif" class="weather-icon" alt="" />
+        <h1 class="temp">0°C</h1>
+        <h2 class="city">undefined</h2>
+        <div class="details">
+          <div class="col">
+            <img src="assets/image/humidity.png" alt="" />
+
+            <div class="col_details">
+              <p class="humidity">--%</p>
+              <p>Humidity</p>
+            </div>
+          </div>
+
+          <div class="col">
+            <img src="assets/image/wind.png" alt="" />
+
+            <div class="col_details">
+              <p class="wind">-- Km/h</p>
+              <p>Wind Speed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="copyrite">
+        <p>Copyright © 2024 pushon21. All rights reserved.</p>
+      </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
