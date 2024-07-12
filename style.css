@@ -24,7 +24,7 @@ body {
   overflow: hidden;
   color: #fff;
   border: 3px solid #000;
-  position: fixed;
+  margin: 13px;
 }
 .search {
   width: 100%;
