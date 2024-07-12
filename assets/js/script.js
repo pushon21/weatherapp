@@ -6,6 +6,7 @@ const searchBox = document.querySelector(".search input");
 const searchBtn = document.querySelector(".search button");
 const weatherIcon = document.querySelector(".weather-icon");
 const errorMessage = document.querySelector(".error p");
+const card = document.querySelector(".card");
 
 // Initially hide the error message
 errorMessage.style.display = "none";
@@ -30,17 +31,24 @@ async function checkweather(city) {
       switch (data.weather[0].main) {
         case "Clouds":
           weatherIcon.src = "assets/image/clouds.gif";
+          card.style.background = "linear-gradient(97deg, rgb(0 0 0), #0048a6)";
           break;
         case "Rain":
           weatherIcon.src = "assets/image/rain.gif";
           break;
         case "Clear":
           weatherIcon.src = "assets/image/clear.gif";
+          card.backgroundColor =
+            "linear-gradient(32deg, rgb(255 0 0), rgb(250 255 36))";
           break;
         case "Drizzle":
           weatherIcon.src = "assets/image/drizzle.gif";
           break;
         case "Haze":
+          weatherIcon.src = "assets/image/mist.gif";
+          card.style.background = "linear-gradient(154deg, #585858, #000000)";
+          break;
+        case "Mist":
           weatherIcon.src = "assets/image/mist.gif";
           break;
         default:
