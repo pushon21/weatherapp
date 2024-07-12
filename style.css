@@ -25,6 +25,7 @@ body {
   color: #fff;
   border: 3px solid #000;
   position: fixed;
+  height: 100%;
 }
 .search {
   width: 100%;
