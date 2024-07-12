@@ -17,13 +17,14 @@ body {
   transform: translate(-50%, -50%);
   align-items: center;
   width: 390px;
-  border-radius: 16px;
+  border-radius: 33px;
   background: linear-gradient(55deg, #121212, #0973ff);
   padding: 20px 23px 20px 23px;
   text-align: center;
   overflow: hidden;
   color: #fff;
-  height: 100vh;
+  border: 3px solid #000;
+  position: fixed;
 }
 .search {
   width: 100%;
@@ -43,6 +44,7 @@ body {
   padding: 13px;
   color: #000;
   border-radius: 13px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 .search button {
   border: 0;
@@ -53,6 +55,7 @@ body {
   border-radius: 50%;
   cursor: pointer;
   font-size: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 .weather {
   width: 100%;
@@ -63,11 +66,13 @@ body {
   font-size: 80px;
   font-weight: 500;
   letter-spacing: 0.4px;
+  text-shadow: rgb(0, 0, 0) 1px 0 10px;
 }
 .weather h2 {
   font-size: 40px;
   font-weight: 400;
   letter-spacing: 0.4px;
+  text-shadow: rgb(0, 0, 0) 1px 0 10px;
 }
 .weather img {
   width: 100%;
@@ -95,6 +100,7 @@ body {
 }
 .col_details p {
   font-size: 13px;
+  text-shadow: rgb(0, 0, 0) 1px 0 10px;
 }
 
 .error p {
@@ -103,12 +109,14 @@ body {
   color: red;
   padding-left: 12px;
   display: none;
+  text-shadow: rgb(0, 0, 0) 1px 0 10px;
 }
 
 .copyrite p {
   font-size: 11px;
   color: #676767bd;
   padding-top: 68px;
+  text-shadow: rgb(0, 0, 0) 1px 0 10px;
 }
 .copyrite {
   margin: 9px;
