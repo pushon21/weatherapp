@@ -38,15 +38,16 @@ async function checkweather(city) {
           break;
         case "Clear":
           weatherIcon.src = "assets/image/clear.gif";
-          card.backgroundColor =
-            "linear-gradient(32deg, rgb(255 0 0), rgb(250 255 36))";
+          card.backgroundColor = card.style.background =
+            "linear-gradient(176deg, rgb(213 129 20), rgb(105 0 0))";
           break;
         case "Drizzle":
           weatherIcon.src = "assets/image/drizzle.gif";
           break;
         case "Haze":
           weatherIcon.src = "assets/image/mist.gif";
-          card.style.background = "linear-gradient(154deg, #585858, #000000)";
+          card.style.background =
+            "linear-gradient(277deg, rgb(0 137 161), rgb(0, 0, 0))";
           break;
         case "Mist":
           weatherIcon.src = "assets/image/mist.gif";
